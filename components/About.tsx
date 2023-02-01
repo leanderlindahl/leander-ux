@@ -5,10 +5,14 @@ type Props = {};
 
 export default function About({}: Props) {
   return (
-    <div
-      className={
-        'flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly items-center'
-      }
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1.5 }}
+      // className={
+      //   'h-screen flex flex-col relative text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly items-center'
+      // }
+      className="h-screen relative flex flex-col text-center md:text-left md:flex-row justify-evenly items-center px-10"
     >
       <h3
         className={
@@ -24,9 +28,30 @@ export default function About({}: Props) {
         viewport={{ once: true }}
         src={'/images/leander-background.jpg'}
         className={
-          '-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]'
+          '-mb-20 mt-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]'
         }
-      ></motion.img>
-    </div>
+      />
+      <div className={'space-y-10 px-0 md:px-10'}>
+        <h4 className={'text-4xl font-semibold'}>
+          Here is a{' '}
+          <span className={'underline decoration-[#F7AB0A]/50'}>little</span>{' '}
+          background
+        </h4>
+        <p className="text-base">
+          {`I'm Leander and I'm about to write some actual content in this spot. In the mean time it will be lorem ipsum: `}
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+          consequuntur facere quaerat placeat exercitationem! Quod hic in
+          distinctio id nemo nobis eveniet nisi, impedit, magni veritatis
+          maiores architecto porro nostrum. Iusto incidunt nesciunt nam neque!
+          Non atque modi eius id laboriosam quasi ipsam autem consequuntur natus
+          obcaecati dolorum voluptate provident voluptatem maxime facilis quam
+          fuga, et impedit cupiditate. Molestias, non. Delectus dolorem
+          architecto totam rerum nemo tenetur sed, voluptate inventore in veniam
+          obcaecati velit accusamus aperiam dolor, provident, cumque minus
+          magnam aliquid placeat repudiandae laborum. Cum quisquam sunt eaque
+          provident! Perspiciatis nemo omnis, officia!
+        </p>
+      </div>
+    </motion.div>
   );
 }
