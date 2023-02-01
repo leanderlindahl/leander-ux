@@ -1,9 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-type Props = {};
-
-export default function ExperienceCard({}: Props) {
+export default function ExperienceCard() {
   {
     /* 
     Software Engineer, IKEA Digital, 2019-2023

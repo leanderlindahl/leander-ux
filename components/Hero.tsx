@@ -3,10 +3,8 @@ import React from 'react';
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
 import BackgroundCircles from './BackgroundCircles';
 
-type Props = {};
-
-export default function Hero({}: Props) {
-  const [text, count] = useTypewriter({
+export default function Hero() {
+  const [text] = useTypewriter({
     words: [
       "Hello, I'm Leander",
       'Guy-who-loves-usability.tsx',
