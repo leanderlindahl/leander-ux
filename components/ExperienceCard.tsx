@@ -11,7 +11,7 @@ export default function ExperienceCard() {
   */
   }
   return (
-    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl-[980px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden">
+    <article className="snap-center overflow-hidden flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-full md:w-[600px] xl:w-[980px]  bg-[#292929] py-10 p-0 hover:opacity-100 opacity-90 cursor-pointer transition-opacity duration-200 max-h-[100%] md:max-h-[80%]">
       <motion.img
         initial={{
           y: -100,
@@ -27,8 +27,8 @@ export default function ExperienceCard() {
         alt={'2LK'}
       />
       <div className="px-5 md:px-10">
-        <h4 className="text-4xl font-light">Designer, Art Director</h4>
-        <p className="font-bold text-2xl mt-1">2LK</p>
+        <h4 className="text-2xl md:text-4xl font-light">Designer</h4>
+        <p className="font-bold text-xl md:text-2xl mt-1">2LK</p>
         <div className="flex space-x-2 m-y-2 mt-5">
           <img
             className="h-10 w-10 rounded-full"

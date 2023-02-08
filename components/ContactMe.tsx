@@ -22,7 +22,7 @@ export default function ContactMe() {
 
   return (
     <div className="h-screen relative flex overflow-hidden flex-col text-center md:flex-left md:flex-row max-w-7xl justify-evenly mx-auto items-center z-0">
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-xl md:text-2xl">
         Contact
       </h3>
       <div className='="flex flex-col space-y-10 px-10'>
