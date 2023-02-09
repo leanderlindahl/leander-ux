@@ -17,7 +17,7 @@ export default function WorkExperience() {
       >
         Experience
       </h3>
-      <div className="mt-10 w-full flex flex-row space-x-5 overflow-x-scroll snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 md-p10">
+      <div className="mt-10 w-full md:w-1/2 flex flex-row space-x-5 overflow-x-scroll snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 md-p10">
         <ExperienceCard />
         <ExperienceCard />
         <ExperienceCard />
