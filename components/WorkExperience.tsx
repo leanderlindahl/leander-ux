@@ -2,6 +2,37 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import ExperienceCard from './ExperienceCard';
 
+const experienceItems = [
+  {
+    jobtitle: 'Designer',
+    organisation: '2LK',
+    timespan: '2001-2010',
+    image: '/images/survival.png',
+    summarypoints: [['lorem', 'ipsum', 'dolor']],
+  },
+  {
+    jobtitle: 'Designer',
+    organisation: 'Popolo',
+    timespan: '2010-2016',
+    image: '',
+    summarypoints: [['lorem', 'ipsum', 'dolor']],
+  },
+  {
+    jobtitle: 'Tech Lead Drupal',
+    organisation: 'Axis Communications',
+    timespan: '2017-2018',
+    image: '',
+    summarypoints: [['lorem', 'ipsum', 'dolor']],
+  },
+  {
+    jobtitle: 'Senior Software Engineer',
+    organisation: 'IKEA Digital (Ingka)',
+    timespan: '2019-present',
+    image: '',
+    summarypoints: [['lorem', 'ipsum', 'dolor']],
+  },
+];
+
 export default function WorkExperience() {
   return (
     <motion.div
@@ -18,10 +49,16 @@ export default function WorkExperience() {
         Experience
       </h3>
       <div className="mt-10 w-full md:w-1/2 flex flex-row space-x-5 overflow-x-scroll snap-x snap-mandatory scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 md-p10">
-        <ExperienceCard />
-        <ExperienceCard />
-        <ExperienceCard />
-        <ExperienceCard />
+        {experienceItems.map((item, index) => (
+          <ExperienceCard
+            jobtitle={item.jobtitle}
+            organisation={item.organisation}
+            timespan={item.timespan}
+            summarypoints={item.summarypoints}
+            image={item.image}
+            key={index}
+          />
+        ))}
       </div>
     </motion.div>
   );
