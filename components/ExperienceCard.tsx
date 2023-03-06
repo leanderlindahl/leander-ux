@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-export default function ExperienceCard(props) {
+export default function ExperienceCard(props: any) {
   const {
     image = '',
     jobtitle = '',
