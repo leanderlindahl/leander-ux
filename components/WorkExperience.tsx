@@ -4,31 +4,31 @@ import ExperienceCard from './ExperienceCard';
 
 const experienceItems = [
   {
-    jobtitle: 'Designer',
-    organisation: '2LK',
-    timespan: '2001-2010',
-    image: '/images/survival.png',
-    summarypoints: [['lorem', 'ipsum', 'dolor']],
-  },
-  {
-    jobtitle: 'Designer',
-    organisation: 'Popolo',
-    timespan: '2010-2016',
-    image: '',
+    jobtitle: 'Senior Software Engineer',
+    organisation: 'IKEA Digital (Ingka)',
+    timespan: '2019-present',
+    image: '/images/ikea-logo.png',
     summarypoints: [['lorem', 'ipsum', 'dolor']],
   },
   {
     jobtitle: 'Tech Lead Drupal',
     organisation: 'Axis Communications',
     timespan: '2017-2018',
-    image: '',
+    image: '/images/axis-logo.png',
     summarypoints: [['lorem', 'ipsum', 'dolor']],
   },
   {
-    jobtitle: 'Senior Software Engineer',
-    organisation: 'IKEA Digital (Ingka)',
-    timespan: '2019-present',
-    image: '',
+    jobtitle: 'Designer',
+    organisation: 'Popolo',
+    timespan: '2010-2016',
+    image: '/images/slicksten.png',
+    summarypoints: [['lorem', 'ipsum', 'dolor']],
+  },
+  {
+    jobtitle: 'Designer',
+    organisation: '2LK',
+    timespan: '2001-2010',
+    image: '/images/survival.png',
     summarypoints: [['lorem', 'ipsum', 'dolor']],
   },
 ];
