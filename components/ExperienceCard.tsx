@@ -42,11 +42,11 @@ export default function ExperienceCard(props: any) {
           />
         </div>
         <p className="uppercase py-5 text-gray-300">{timespan}</p>
-        <ul className="list-disc space-y-4 ml-5 text-lg">
+        {/* <ul className="list-none space-y-4 ml-5 text-lg">
           {summarypoints.map((item: string, index: number) => (
             <li key={index}>{item}</li>
           ))}
-        </ul>
+        </ul> */}
       </div>
     </article>
   );
