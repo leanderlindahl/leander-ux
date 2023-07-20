@@ -34,18 +34,18 @@ export default function ContactMe() {
         </h4>
 
         <div className="space-y-5">
-          <div className="flex items-center space-x-2 md:space-x-5 justify-center">
+          {/* <div className="flex items-center space-x-2 md:space-x-5 justify-center">
             <PhoneIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
             <p className="text-xl md:text-2xl">+1234567890</p>
-          </div>
+          </div> */}
           <div className="flex items-center space-x-2 md:space-x-5 justify-center">
             <EnvelopeIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
             <p className="text-xl md:text-2xl">leander@leanderlindahl.se</p>
           </div>
-          <div className="flex items-center space-x-2 md:space-x-5 justify-center">
+          {/* <div className="flex items-center space-x-2 md:space-x-5 justify-center">
             <MapPinIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
             <p className="text-xl md:text-2xl">123 Developer Lane</p>
-          </div>
+          </div> */}
         </div>
         <form
           onSubmit={handleSubmit(onSubmit)}

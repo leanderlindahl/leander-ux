@@ -38,18 +38,10 @@ export default function About() {
             background
           </h4>
           <p className="text-base mt-[1rem]">
-            {`I'm Leander and I'm about to write some actual content in this spot. In the mean time it will be lorem ipsum: `}
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. In
-            consequuntur facere quaerat placeat exercitationem! Quod hic in
-            distinctio id nemo nobis eveniet nisi, impedit, magni veritatis
-            maiores architecto porro nostrum. Iusto incidunt nesciunt nam neque!
-            Non atque modi eius id laboriosam quasi ipsam autem consequuntur
-            natus obcaecati dolorum voluptate provident voluptatem maxime
-            facilis quam fuga, et impedit cupiditate. Molestias, non. Delectus
-            dolorem architecto totam rerum nemo tenetur sed, voluptate inventore
-            in veniam obcaecati velit accusamus aperiam dolor, provident, cumque
-            minus magnam aliquid placeat repudiandae laborum. Cum quisquam sunt
-            eaque provident! Perspiciatis nemo omnis, officia!
+            {`Hi I'm Leander - a UX designer with a passion for the craft of good functional design. 
+I’ve worked with design and engineering for 25+ years and have experience both from global companies such as Axis and IKEA as well as running my own design agency with big and small clients.
+I love UX design because it enables you to “fix” obvious wrongs and make users life easier, simply by adhering to the rules of functional design. Good design is like good carpentry: be meticulous, be precise and make sure that it works well. There is so much bad design out there and I enjoy cleaning up the world one interaction and one screen at a time.
+`}
           </p>
         </div>
       </div>

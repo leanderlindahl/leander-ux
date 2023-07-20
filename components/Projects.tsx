@@ -9,6 +9,18 @@ export default function Projects() {
       image: 'case-studies/jummy-cover.png',
       pdf: 'case-studies/jummy-ux-case-study.pdf',
     },
+    {
+      name: 'Dogify',
+      description: 'A UX Case Study of Dogify',
+      image: 'case-studies/dogify-cover.png',
+      pdf: 'case-studies/dogify-ux-case-study.pdf',
+    },
+    {
+      name: 'Pets in need',
+      description: 'A UX Case Study of Pets in need',
+      image: 'case-studies/pets-in-need-cover.png',
+      pdf: 'case-studies/pets-in-need-ux-case-study.pdf',
+    },
   ];
   return (
     <motion.div

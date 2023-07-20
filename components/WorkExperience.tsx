@@ -8,28 +8,28 @@ const experienceItems = [
     organisation: 'IKEA Digital (Ingka)',
     timespan: '2019-present',
     image: '/images/ikea-logo.png',
-    summarypoints: [['lorem', 'ipsum', 'dolor']],
+    // summarypoints: [[]],
   },
   {
     jobtitle: 'Tech Lead Drupal',
     organisation: 'Axis Communications',
     timespan: '2017-2018',
     image: '/images/axis-logo.png',
-    summarypoints: [['lorem', 'ipsum', 'dolor']],
+    // summarypoints: [[]],
   },
   {
     jobtitle: 'Designer',
     organisation: 'Popolo',
     timespan: '2010-2016',
     image: '/images/slicksten.png',
-    summarypoints: [['lorem', 'ipsum', 'dolor']],
+    // summarypoints: [[]],
   },
   {
     jobtitle: 'Designer',
     organisation: '2LK',
     timespan: '2001-2010',
     image: '/images/survival.png',
-    summarypoints: [['lorem', 'ipsum', 'dolor']],
+    // summarypoints: [[]],
   },
 ];
 
