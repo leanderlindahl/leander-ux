@@ -11,7 +11,7 @@ export default function ExperienceCard(props: any) {
   } = props;
 
   return (
-    <article className="snap-center overflow-hidden flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-full md:w-[600px] xl:w-[980px]  bg-[#292929] py-10 p-0 hover:opacity-100 opacity-90 cursor-pointer transition-opacity duration-200 max-h-[100%] md:max-h-[80%]">
+    <article className="snap-center overflow-hidden flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-full md:w-full xl:w-full  bg-[#292929] py-10 p-0 hover:opacity-100 opacity-90 cursor-pointer transition-opacity duration-200 max-h-[100%] md:max-h-[80%]">
       <motion.img
         initial={{
           y: -100,

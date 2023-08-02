@@ -16,7 +16,7 @@ export default function About() {
       >
         About
       </h3>
-      <div className="mt-20 w-full flex flex-col items-center overflow-y-hidden">
+      <div className="mt-20 w-full flex flex-col items-center overflow-y-hidden xl:grid xl:grid-cols-2 xl:justify-items-end">
         <motion.img
           initial={{ x: -200, opacity: 0 }}
           transition={{ duration: 1.2 }}
@@ -33,9 +33,11 @@ export default function About() {
           }
         >
           <h4 className={'hidden md:flex md:text-2xl font-semibold'}>
-            Here is a{' '}
-            <span className={'underline decoration-[#F7AB0A]/50'}>little</span>{' '}
-            background
+            {`Here is a `}&nbsp;
+            <span className={'underline decoration-[#F7AB0A]/50'}>
+              {` little `}&nbsp;
+            </span>
+            {`background`}
           </h4>
           <p className="text-base mt-[1rem]">
             <span

@@ -58,7 +58,7 @@ export default function Projects() {
                 {project.name}
               </h4>
 
-              <p className="text-lg text-center md:text-left">
+              <p className="text-lg text-center">
                 <a
                   href={project.pdf}
                   title="Case Study PDF"
