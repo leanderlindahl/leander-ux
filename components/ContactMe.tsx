@@ -26,9 +26,9 @@ export default function ContactMe() {
       <h3 className="w-4/5 absolute text-center top-24 uppercase tracking-[20px] text-gray-500 text-xl md:text-2xl">
         Contact
       </h3>
-      <div className="flex flex-col space-y-10">
+      <div className="flex flex-col space-y-10 mt-[80px] mb-10">
         {/* px-10 */}
-        <h4 className="text-3xl md:text-4xl mt-[100px] md:mt-0 font-semibold text-center">
+        <h4 className="text-3xl md:text-4xl mt-[100px] md:mt-0 font-semibold text-center hidden md:flex">
           {`I have got just what you need. `}
           <span className="decoration-[#F7AB0A]/50 underline">{`Let's talk`}</span>
         </h4>

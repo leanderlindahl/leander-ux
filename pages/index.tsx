@@ -7,7 +7,7 @@ import Skills from '@/components/Skills';
 import Projects from '@/components/Projects';
 import ContactMe from '@/components/ContactMe';
 import Link from 'next/link';
-import { HomeModernIcon } from '@heroicons/react/24/solid';
+import { HomeIcon } from '@heroicons/react/24/solid';
 
 export default function Home() {
   return (
@@ -45,7 +45,7 @@ export default function Home() {
       <Link href="#hero">
         <footer className="sticky bottom-5 w-full cursor-pointer">
           <div className="flex items-center justify-center">
-            <HomeModernIcon className="text-gray-600 hover:text-[#F7AB0A] h-7 w-7" />
+            <HomeIcon className="text-gray-600 hover:text-[#F7AB0A] h-7 w-7" />
           </div>
         </footer>
       </Link>
