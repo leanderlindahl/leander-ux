@@ -13,7 +13,7 @@ export default function Projects() {
       name: 'Dogify',
       description: 'A UX Case Study of Dogify',
       image: 'case-studies/dogify-cover.png',
-      pdf: 'case-studies/dogify-ux-case-study.pdf',
+      pdf: 'https://www.behance.net/gallery/177360683/UX-Case-Study-Dogify',
     },
     {
       name: 'Pets in need',
