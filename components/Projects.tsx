@@ -7,7 +7,7 @@ export default function Projects() {
       name: 'Jummy takeaway food',
       description: 'A UX Case Study of Jummy Takeaway Food',
       image: 'case-studies/jummy-cover.png',
-      pdf: 'case-studies/jummy-ux-case-study.pdf',
+      pdf: 'https://www.behance.net/gallery/177363371/UX-Case-Study-Jummy',
     },
     {
       name: 'Dogify',
